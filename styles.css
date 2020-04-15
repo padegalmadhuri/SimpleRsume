@@ -1,0 +1,69 @@
+* {
+  max-width: 720px;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+  @media only screen and (max-width: 430px) {
+
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+div {
+  border-radius: 4px;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  position: Absolute;
+  z-index: 1;
+
+}
+.mainbody{
+  margin-left: 50px;
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 100%;
+  height: 1000px;
+
+}
+.alignleft {
+	float: left;
+	margin-left: 12px;
+  font-weight:bold;
+}
+.alignright {
+	float: right;
+	margin-right: 16px;
+}
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+}
+
+.mainthings{
+  text-shadow: 2px 2px #e0eeee;
+}
+.edu{
+  text-decoration:underline;
+}
+ul {
+  list-style-type: square;
+}
+
+#footer {
+  height: 50px;
+  width: 150%;
+  background-color: #ffcccc;
+  position: Absolute;
+
+}
